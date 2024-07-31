@@ -3,11 +3,6 @@
   margin: 0;
 }
 
-.wrap {
-  background-image: url(/assets/snapedit_1721793324424.jpeg);
-  /* background-image: url(/assets/image\ \(4\).png); */
-  /* padding: 10px; */
-}
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -156,7 +151,7 @@ form h2 {
   margin-bottom: 20px;
 }
 .kontakbertanya {
-  background-image: url(./assets/snapedit_1721871115648.jpeg);
+  background-image: url(../assets/snapedit_1721871115648.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -320,7 +315,7 @@ p {
   }
   .kontak-1 {
     padding: 200px;
-    background-image: url(./assets/seminar-user-experience-ppqita-al-mahir-1170x729.jpg);
+    background-image: url(../assets/seminar-user-experience-ppqita-al-mahir-1170x729.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -521,7 +516,7 @@ button:hover {
   padding: 20px;
 }
 .kunjungi {
-  background-image: url(/assets/snapedit_1721793324424.jpeg);
+  background-image: url(../assets/snapedit_1721793324424.jpeg);
 }
 
 }

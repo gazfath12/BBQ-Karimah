@@ -6,10 +6,7 @@ body {
 .container {
   padding: 0px 10px;
 }
-.wrap {
-  background-image: url(/assets/snapedit_1721793324424.jpeg);
-  /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)); */
-}
+
 
 .perpustakaan {
   background: #fff;
@@ -149,7 +146,7 @@ nav {
 }
 
 header {
-  background-image: url(./assets/seminar-user-experience-ppqita-al-mahir-1170x729.jpg);
+  background-image: url(../assets/seminar-user-experience-ppqita-al-mahir-1170x729.jpg);
   /* background-repeat:repeat; */
   background-size: cover;
   /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)); */

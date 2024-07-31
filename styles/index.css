@@ -8,9 +8,7 @@
   padding: 0px 10px;
 }
 
-.wrap {
-  background-image: url(/assets/snapedit_1721793324424.jpeg);
-}
+
 .content {
   /* background-image: url(/assets/bg\ imge.jpeg);   */
   color: white;
@@ -144,7 +142,7 @@ button:hover {
   border-radius: 4px;
 }
 .statistik .section:hover {
-  background-image: url(./assets/snapedit_1721793324424.jpeg);
+  background-image: url(../assets/snapedit_1721793324424.jpeg);
 }
 .statistik,
 .lembaga,
@@ -440,7 +438,7 @@ img {
   .statistik .section:hover {
     border-radius: 8px;
     padding: 10px;
-    background-image: url(/assets/snapedit_1721793324424.jpeg);
+    background-image: url(../assets/snapedit_1721793324424.jpeg);
   }
   .statistik .section h1 {
     font-size: 40px;
