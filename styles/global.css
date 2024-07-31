@@ -113,4 +113,8 @@ background-color:white;
     color: black;
   }
   
-  
+  .wrap {
+    background-image: url(/assets/snapedit_1721793324424.jpeg);
+    background-repeat: repeat;
+    background-size: cover;
+  }

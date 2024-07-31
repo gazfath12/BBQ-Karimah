@@ -156,7 +156,7 @@ form h2 {
   margin-bottom: 20px;
 }
 .kontakbertanya {
-  background-image: url(/assets/snapedit_1721871115648.jpeg);
+  background-image: url(./assets/snapedit_1721871115648.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -320,7 +320,7 @@ p {
   }
   .kontak-1 {
     padding: 200px;
-    background-image: url(/assets/seminar-user-experience-ppqita-al-mahir-1170x729.jpg);
+    background-image: url(./assets/seminar-user-experience-ppqita-al-mahir-1170x729.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;

@@ -51,7 +51,7 @@ nav {
   padding-bottom: 20px;
 }
 .content {
-  background-image: url(/assets/acara2.jpeg);
+  background-image: url(./assets/acara2.jpeg);
   background-repeat: repeat;
   background-size: cover;
 }
@@ -141,7 +141,7 @@ section {
   padding: 20px;
 }
 section:hover {
-  background-image: url(/assets/bg\ imge.jpeg);
+  background-image: url(./assets/bg\ imge.jpeg);
 }
 .langkah {
   /* background-color: #04AA6D; */
@@ -225,7 +225,7 @@ footer p {
   .content {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-image: url(/assets/image\ \(2\).png);
+    background-image: url(./assets/image\ \(2\).png);
     background-size: cover;
     /* opacity: 0.5; */
     background-repeat: repeat;
