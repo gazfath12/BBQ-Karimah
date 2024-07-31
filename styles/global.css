@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --warna-satu: #d5b39a;
+  --warna-dua: #dddbdc;
+  --warna-tiga: #9fa895;
+  --warna-empat: #dcdcdc;
+  --warna-lima: #3d0c09;
+  --warna-enam: #0a3033;
+  --warna-tujuh: #b23e4a;
+  --warna-delapan: #aac8ae;
+  --warna-sembilan: #bdc7a2;
+  --warna-sepuluh: #97ab6e;
+  --warna-sebelas: #a1885f;
+  --warna-duabelas: #959c72;
+  --warna-tigabelas: #b5c89a;
+  --warna-empatbelas: #ebebeb;
+  --warna-limabelas: ;
+  --warna-enambelas: #d9dbd0;
+
+  --font-paragraf: "Lato", sans-serif;
+  --font-subjudul: "Open Sans", sans-serif;
+  --font-judul: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-judul);
+}
+
+h4,
+h5,
+h6,
+a {
+  font-family: var(--font-subjudul);
+}
+
+p,
+label,
+textarea,
+:placeholder-shown {
+  font-family: var(--font-paragraf);
+  font-size: 16px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color:black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background:#dcdcdc;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color:#9fa895;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+background-color:white;
+  color: black;
+}
+#navbar a:hover {
+    background-color: #ffffff;
+ }
+ #navbar {
+    background-color: #333; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    z-index: 999;
+  }
+  
+  /* Style the navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  

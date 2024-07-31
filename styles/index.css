@@ -1,0 +1,530 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0px 10px;
+}
+
+.wrap {
+  background-image: url(/assets/snapedit_1721793324424.jpeg);
+}
+.content {
+  /* background-image: url(/assets/bg\ imge.jpeg);   */
+  color: white;
+}
+.hero nav .nav {
+  display: none;
+}
+.content-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content-img {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 4px;
+  /* background-color: var(--warna-enambelas); */
+}
+.content-img img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.accordion {
+  background-color: #fffffe;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  display: flex;
+  gap: 10px ;
+}
+.pertanyaan {
+  padding: 10px;
+  /* margin: 10px; */
+}
+
+button {
+  padding: 10px;
+  margin: 1px;
+}
+.active,
+.accordion:hover {
+  /* background-color: #ccc; */
+}
+.accordion {
+  display: flex;
+  /* gap: 10px; */
+  /* margin: auto; */
+  margin-top: 10px;
+  width: 100%;
+}
+
+.panel {
+  padding: 16px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  text-align: left; 
+}
+.pertanyaan button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* Style the navigation menu */
+
+/* Hide the nav on smaller screens */
+nav {
+  display: none;
+}
+
+.content-1 h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.content-1 p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.button,
+.button-view {
+  margin-top: 10px;
+}
+
+button {
+  background-color: rgb(33, 33, 219);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3da9fc;
+}
+.accordion:hover{
+  /* background-color: #e8e8e8; */
+}
+.content-img img {
+  max-width: 100%;
+  height: auto;
+}
+.statistik {
+  /* background-color: var(--warna-satu); */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  padding: 20px;
+}
+.statistik .section {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #ccc;
+  padding: 10px;
+  width: 80%;
+  border-radius: 4px;
+}
+.statistik .section:hover {
+  background-image: url(/assets/snapedit_1721793324424.jpeg);
+}
+.statistik,
+.lembaga,
+.deskripsi,
+.testimonial,
+.pertanyaan {
+  text-align: center;
+
+}
+.img-lem {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+.deskripsi h1 {
+  color: white;
+}
+.head h2 {
+  color: white;
+  text-align: center;
+}
+.section-1 section {
+  background-color: #eee;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.statistik .section,
+.lembaga .img-lem,
+.testimonial .cards {
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top;
+}
+
+.statistik .section h1 {
+  font-size: 2em;
+  color: #04aa6d;
+}
+.head  h2{
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.head h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.statistik .section h4 {
+  font-size: 1em;
+  margin-top: 10px;
+}
+.testimonial h2{
+  color: white;
+}
+.lembaga {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #04aa6d; */
+  flex-wrap: wrap;
+  justify-content: center;
+  /* width: 100%; */
+}
+.lembaga .img-lembaga {
+  width: 50%;
+  /* padding: 10px; */
+}
+.lembaga .img-lembaga-2 {
+  width: 50%;
+  /* padding: 10px; */
+}
+.img-lem img {
+  width: 80%;
+}
+.testimonial {
+  /* background-color: #ddd; */
+  padding: 20px;
+}
+.testimonial h1 {
+  color: white;
+}
+.testimonial .cards {
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: #ddd;
+  /* color: white; */
+}
+.testimonial .cards h3,p {
+ font-size: xx-large;
+}
+.testimonial p {
+  padding-top: 10px;
+}
+.img-testi {
+  padding: 10px;
+  /* background-color: #04AA6D; */
+  /* padding-bottom: 10px; */
+  border-radius: 80px;
+  /* width: 40%; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* width: 40%; */
+  margin: 10px;
+}
+.img-testi img {
+  width: 30%;
+}
+/* section */
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  /* background-color: var(--warna-enambelas); */
+
+  margin: 10px;
+}
+section .img-pelatihan img{
+  padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+section img {
+  width: 70%;
+}
+video {
+  width: 80%;
+}
+/* Footer */
+footer {
+  padding: 10px;
+  margin-top: 20px;
+  color: white;
+  /* padding: 20px; */
+  text-align: center;
+  font-size: 16px;
+ 
+}
+
+footer .img-footer img {
+  /* max-width: 100px; */
+  margin: 20px 0;
+}
+
+footer .sosmed a,
+footer .kontak a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer .sosmed a:hover,
+footer .kontak a:hover {
+  color: #333;
+}
+
+footer .kontak iframe {
+  border: none;
+  width: 100%;
+  height: 200px;
+  margin: 20px 0;
+}
+
+footer h1 {
+  padding-top: 10px;
+}
+footer p {
+  font-size: 0.8em;
+  margin: 20px 0 0;
+  padding: 5px;
+}
+
+hr {
+  border: 1px solid #eee;
+  margin: 20px 0;
+}
+img {
+  width: 50%;
+}
+.sosmed {
+  padding: 10px;
+}
+
+.faq {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+.faq p {
+  padding-top: 10px;
+}
+.pertanyaan .panel {
+  padding: 10px;
+  margin: auto;
+  border-radius: 4px;
+}
+.pf {
+  text-align: center;
+  padding-bottom: 20px;
+}
+/* Responsive */
+@media (min-width: 1024px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    margin: 0;
+    padding: 0px 90px;
+  }
+  nav {
+    display: block;
+  }
+
+  .hero {
+    display: none;
+  }
+
+  #navbar {
+    background-color: #333; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+  
+  /* Style the navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+   
+  .statistik .section,
+  .lembaga .img-lem,
+  .testimonial .cards {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+  /* Style the navbar */
+ 
+  .content {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .content-1 {
+    width: 45%;
+    text-align: left;
+    display: flex;
+    gap: 20px;
+  }
+  .content-img {
+    width: 45%;
+    margin-top: 40px;
+  }
+  .btn-content {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    width: 100%;
+  }
+  .statistik {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    padding: 0;
+  }
+  .statistik .section:hover {
+    border-radius: 8px;
+    padding: 10px;
+    background-image: url(/assets/snapedit_1721793324424.jpeg);
+  }
+  .statistik .section h1 {
+    font-size: 40px;
+
+    text-align: center;
+  }
+  .button a button {
+    display: flex;
+    gap: 5px;
+
+    /* padding: 10px; */
+  }
+  a {
+    text-decoration: none;
+  }
+  .lembaga .img-lembaga {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+    padding: 10px;
+  }
+  .lembaga .img-lembaga-2 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 30%;
+  }
+
+  .section-deskripsi {
+    display: flex;
+    /* flex-direction: column; */
+    padding-top: 20px;
+    background-color: #333;
+  }
+  .section-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  section {
+    width: 45%;
+  }
+
+  .testimonial .cards-testi {
+    /* background-color: #ddd; */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+  }
+  .testimonial .cards-testi h3 {
+    font-size: 30px;
+    padding: 5px 0px;
+  }
+  .cards {
+    background-color: #ddd;
+  }
+  footer {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: white;
+    gap: 40px;
+  }
+  .footer-1 {
+    width: 50%;
+    text-align: left;
+  }
+  .footer-2 {
+    width: 50%;
+  }
+  .sosmed {
+    display: flex;
+    justify-content: end;
+  }
+  .pertanyaan {
+    margin: 10px;
+  }
+  .pertanyaan button {
+    /* margin: 10px 0px; */
+  }
+}

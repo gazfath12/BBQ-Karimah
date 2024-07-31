@@ -1,0 +1,527 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrap {
+  background-image: url(/assets/snapedit_1721793324424.jpeg);
+  /* background-image: url(/assets/image\ \(4\).png); */
+  /* padding: 10px; */
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+.containr {
+  padding: 0px 10px;
+}
+/* Hide the links inside the navigation menu (except for logo/home) */
+nav {
+  display: none;
+}
+.footer {
+  /* background-color: #333; */
+  color: #fff;
+  padding: 40px 20px;
+  /* text-align: center ; */
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer div {
+  flex: 1 1 300px;
+  margin: 10px;
+}
+.footer h3 {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #45a049;
+}
+.footer .social-links a {
+  margin-right: 15px;
+  font-size: 1px;
+}
+.footer p {
+  margin: 5px 0;
+}
+.p {
+  text-align: center;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .social-links {
+  margin: 20px 0;
+}
+.footer .social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+.footer .contact-info,
+.footer .about-us {
+  margin: 20px 0;
+}
+.footer-3 {
+  display: none;
+}
+
+footer h1 {
+  padding-top: 10px;
+}
+footer p {
+  font-size: 0.8em;
+  margin: 20px 0 0;
+  padding: 5px;
+}
+.pf {
+  text-align: center;
+  padding: 20px;
+}
+.kontak {
+  /* background-image: url(/assets/image\\(3\).png); */
+  width: 68%;
+  padding: 200px;
+  display: none;
+}
+.kontak-1 {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+.kunjungi {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+iframe {
+  background-color: white;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+form h2 {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.kontakbertanya {
+  background-image: url(/assets/snapedit_1721871115648.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+  color: white;
+}
+.button {
+  /* background-color: #04aa6d; */
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.button button {
+  background-color: #3da9fc;
+  border-radius: 4px;
+  padding: 10px 30px;
+  border: none;
+}
+button {
+  background-color: #3da9fc;
+  /* background-color: #3da9fc; */
+}
+.kontakbertanya h1,
+p {
+  padding: 10px;
+}
+#content-1 {
+  display: none;
+}
+.end {
+  display: none;
+}
+.container-3 {
+  display: none;
+}
+@media (min-width: 1024px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  nav {
+    display: block;
+  }
+  .container-3 {
+    display: block;
+  }
+  .container {
+    padding: 0px 90px;
+  }
+  .hero {
+    display: none;
+  }
+
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  /* Page content */
+
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .content {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  #content {
+    display: none;
+  }
+  #content-1 {
+    display: block;
+  }
+  /* Style inputs, select elements and textareas */
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    /* background-color: #f2f2f2; */
+  }
+
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  /* Style the container */
+  .contain {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .kontak-1 {
+    padding: 200px;
+    background-image: url(/assets/seminar-user-experience-ppqita-al-mahir-1170x729.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  .kunjungi h2 {
+    padding-bottom: 20px;
+  }
+  .kunjungi {
+    padding: 20px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+  }
+  .kontakbertanya {
+    padding: 90px;
+    color: #f2f2f2;
+  }
+  .kontakbertanya p,
+  h1 {
+    padding: 10px;
+  }
+  .button button {
+    /* background-color: #04aa6d; */
+    border-radius: 4px;
+    padding: 20px 40px;
+    border: none;
+  }
+  .button {
+    font-size: xx-large;
+  }
+
+  .footer-3 {
+    display: block;
+  }
+  .footer {
+    display: none;
+  }
+  footer {
+    padding: 20px;
+  }
+  footer .atas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  footer .atas button {
+    position: relative;
+    top: 5px;
+  }
+  footer .atas h5:nth-child(1) {
+    font-size: medium;
+  }
+  footer .bawah {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer .bawah .satu {
+    width: 30%;
+  }
+  footer .atas {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  footer button {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    align-items: center;
+    padding: 7px;
+    border-radius: 40px;
+    /* background-color: rgb(224, 224, 224); */
+    height: 37px;
+    border: none;
+    padding-left: 15px;
+    width: 160px;
+  }
+  footer button .logo {
+    background-color: black;
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    justify-content: center;
+    border-radius: 40px;
+    align-items: center;
+    color: white;
+  }
+
+  footer button:hover {
+    color: white;
+    background-color: black;
+  }
+  footer .atas button {
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 12px;
+  }
+  footer .bawah .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+  }
+  footer .bawah .logo .la {
+    width: 25px;
+    height: 2px;
+
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    justify-content: center;
+    border-radius: 40px;
+    align-items: center;
+    position: relative;
+    bottom: 8px;
+    background-color: rgb(230, 230, 230);
+    color: black;
+  }
+  footer .bawah .logo .la:hover {
+    color: white;
+    background-color: black;
+  }
+  .end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+  }
+  .p {
+    display: none;
+  }
+footer {
+  color: white;
+}
+
+.container-3 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    /* width: 100%; */
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+ 
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+button {
+    /* background-color: #28a745; */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Responsive */
+.kunj {
+  background-color: floralwhite;
+  padding: 20px;
+}
+.kunjungi {
+  background-image: url(/assets/snapedit_1721793324424.jpeg);
+}
+
+}
